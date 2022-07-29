@@ -199,7 +199,7 @@ body {
                         error: function(xhr, resp, text) {
                         console.log(xhr, resp, text);
                         $('#view').html(
-                                '<h5><p class="text-center alert alert-warning"> Ups! '+$('#cp').val()+' Es un CODIGO POSTAL erroneo</p></h5>'   
+                                '<h5><p class="text-center alert alert-warning"> ¡Ups! '+$('#cp').val()+' Es un CODIGO POSTAL erroneo</p></h5>'   
 
                             )
                         }
